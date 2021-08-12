@@ -1,0 +1,35 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "2.0.0",
+        "title": "Mailhog API"
+    },
+    "host": "mailhog.php.docker.localhost:8025",
+    "paths": {
+        "/api/v2/messages": {
+            "get": {
+                "description": "Retrieve a list of messages\n",
+                "parameters": [
+                    {
+                        "name": "start",
+                        "in": "query",
+                        "description": "Start index",
+                        "required": false,
+                        "type": "number",
+                        "format": "int64",
+                        "default": 0
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "Number of messages",
+                        "required": false,
+                        "type": "number",
+                        "format": "int64",
+                        "default": 50
+                    }
+                ]
+            }
+        }
+    }
+}

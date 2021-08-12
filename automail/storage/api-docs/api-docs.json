@@ -1,0 +1,29 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Email API",
+        "version": "1.0"
+    },
+    "paths": {
+        "/": {
+            "get": {
+                "tags": [
+                    "Email"
+                ],
+                "description": "Return email view.",
+                "operationId": "658c42b36420c8f192bf88d49b81add1",
+                "responses": {
+                    "200": {
+                        "description": "Email view."
+                    },
+                    "404": {
+                        "description": "ENF (Email Not Found)."
+                    }
+                }
+            }
+        }
+    },
+    "security": [
+        []
+    ]
+}
