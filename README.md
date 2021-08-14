@@ -1,4 +1,4 @@
-## Introduction
+## Intro
 
 This project is based on the docker4php. This is a project make to use a mailhog application with laravel.
 
