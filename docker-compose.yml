@@ -62,7 +62,7 @@ services:
       NGINX_ERROR_LOG_LEVEL: debug
       NGINX_BACKEND_HOST: php
       NGINX_VHOST_PRESET: php
-      NGINX_SERVER_ROOT: /var/www/html/automail/public
+      NGINX_SERVER_ROOT: /var/www/html/app-relic/public
     volumes:
     - ./:/var/www/html:cached
 
